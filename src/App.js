@@ -1,22 +1,29 @@
-import logo from './logo.svg';
+import logo from './obi.png';
 import './App.css';
 
+
+
 function App() {
+  const customStyle = {
+    backgroundColor: '#deb887',
+  };
+
   return (
-    <div className="App">
+    <div className="App" style={customStyle}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+          <code>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://ramirezdanielle.github.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Click Here
         </a>
+            </code> 
+        </p>
       </header>
     </div>
   );
